@@ -1,0 +1,7 @@
+/*FONTS*/
+@import url("https://fonts.googleapis.com/css2?family=Rammetto+One&display=swap");
+
+/*ELEMENTS*/
+@import "./home/banner.css";
+@import "./home/footer.css";
+@import "./home/site.css";
