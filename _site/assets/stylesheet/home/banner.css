@@ -17,31 +17,33 @@
   left: 0%;
   right: 41.53%;
   top: 0%;
-  bottom: 33.11%;
+  bottom: 30%;
   background: rgb(239, 231, 220);
+  clip-path: polygon(0% 0%, 90% 0%, 85.5% 60%, 0% 105%);
 }
 
 .item1 h2 {
   position: absolute;
-  right: 12.9%;
-  top: 46.4%;
+  right: 14.9%;
+  top: 42.4%;
   display: block;
   color: rgb(245, 202, 130);
 }
 
 .item2 {
   position: absolute;
-  left: 52.29%;
+  left: 49.66%;
   right: 0%;
   top: 0%;
-  bottom: 33.11%;
+  bottom: 26%;
   background: rgb(92, 131, 121);
+  clip-path: polygon(6% 0, 100% 0%, 100% 100%, 0% 61%);
 }
 
 .item2 h2 {
   position: absolute;
-  left: 5.19%;
-  top: 50.72%;
+  left: 1.19%;
+  top: 45.72%;
   display: block;
   color: rgb(239, 231, 220);
 }
@@ -50,15 +52,22 @@
   position: absolute;
   left: 0%;
   right: 0%;
-  top: 47.71%;
+  top: 39.71%;
   bottom: 0%;
   background: rgb(245, 202, 130);
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  clip-path: polygon(50% 1%, 100% 56%, 100% 100%, 0% 100%, 0% 50%);
 }
 
 .item3 h2 {
   align-items: center;
   color: rgb(92, 131, 121);
+}
+
+.text-item3-banner{
+  position: absolute;
+  top: 16.72%;
 }
