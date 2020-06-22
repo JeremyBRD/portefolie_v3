@@ -37,12 +37,12 @@
   top: 0%;
   bottom: 26%;
   background: rgb(92, 131, 121);
-  clip-path: polygon(6% 0, 100% 0%, 100% 100%, 0% 61%);
+  clip-path: polygon(5.9% 0, 100% 0%, 100% 100%, 0% 61%);
 }
 
 .item2 h2 {
   position: absolute;
-  left: 1.19%;
+  left: 2.19%;
   top: 45.72%;
   display: block;
   color: rgb(239, 231, 220);

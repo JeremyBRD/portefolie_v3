@@ -1,0 +1,32 @@
+.navbar-lewagon {
+  display: flex;
+  justify-content: space-between;
+  background: transparent;
+  z-index: 1;
+  height: 65px;
+  align-items: center;
+  padding: 1rem;
+}
+
+.navbar-links {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+.navbar-links a {
+  color: black;
+  opacity: 0.15;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 0px 10px;
+  transition: all .2s ease-in-out;
+}
+
+.navbar-links a:hover {
+  opacity: 1;
+  transform: scale(1.1);
+  color: rgb(245, 202, 130);
+  text-decoration: none;
+}
